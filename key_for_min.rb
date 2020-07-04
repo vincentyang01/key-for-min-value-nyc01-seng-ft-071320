@@ -8,5 +8,5 @@ def key_for_min_value(name_hash)
         value = cost
       end
     end
-  name_hash.each do 
+  name_hash.key(value)
 end
