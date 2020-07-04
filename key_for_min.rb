@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   value = 10000;
-  name_hash.each |key, cost| do 
+  name_hash.each do |key, cost|
       if value > cost
         value = cost
       end
